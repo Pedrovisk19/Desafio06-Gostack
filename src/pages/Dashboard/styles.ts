@@ -44,6 +44,14 @@ export const Card = styled.div`
     font-size: 36px;
     font-weight: normal;
     line-height: 54px;
+
+    &.outcome {
+        color: #EF233C;
+    }
+
+    &.income {
+        color: #12a454;
+    }
   }
 `;
 
@@ -71,6 +79,9 @@ export const TableContainer = styled.section`
       font-weight: normal;
       color: #969cb3;
 
+      &.outcome {
+        color: #EF233C;
+      }
       &.title {
         color: #363f5f;
       }
@@ -79,9 +90,6 @@ export const TableContainer = styled.section`
         color: #12a454;
       }
 
-      &.outcome {
-        color: #e83f5b;
-      }
     }
 
     td:first-child {
